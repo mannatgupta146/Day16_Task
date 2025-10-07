@@ -268,7 +268,7 @@ html, body {
 }
 
 #hero-nav{
-    padding: 10px 80px;
+    padding: 30px 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -303,7 +303,7 @@ html, body {
 
 #signup {
     text-align: center; 
-    padding: 30px 0;
+    padding: 50px 0 50px;
 }
 
 #signup h2 {
@@ -323,7 +323,7 @@ html, body {
 }
 
 #end{
-    padding: 20px 60px;
+    padding: 30px 60px;
     display: flex;
     gap: 10px;
     align-items: center;
@@ -376,4 +376,116 @@ html, body {
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+  padding: 40px;
+  background: #f9f9f9;
+  font-family: mona;
+}
+
+.card {
+  width: 320px;
+  background: #fff;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.media {
+  position: relative;
+}
+
+.media img, .media video{
+  width: 100%;
+  display: block;
+  border-radius: 5px;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.media:hover .overlay {
+  opacity: 1;
+}
+
+.icons {
+  display: flex;
+  gap: 30px;
+  color: #fff;
+}
+
+.icon-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s;
+}
+
+.icon-text span {
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.project-name {
+  position: absolute;
+  bottom: 15px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 15px;
+}
+
+.details img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.react {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #555;
+}
+
+.react i {
+  color: #9E9EA7;
+  font-size: 16px;
+}
+
+.react:hover #heart{
+    color: #EA64D9;
 }
