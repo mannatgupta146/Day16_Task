@@ -20,6 +20,20 @@ This project helped me understand:
 - 📏 Creating **responsive grids** with proper spacing and wrapping  
 - 💡 Designing a visually appealing UI inspired by real-world platforms  
 
+## 📸 Preview
+Here’s how the **Dribbble Clone** looks in action 👇  
+
+## 🎥 Project Demo
+Here's a quick look at how the Dribbble Clone works:
+
+<video width="600" controls>
+  <source src="https://raw.githubusercontent.com/mannatgupta146/Day16_Task/main/assets/demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+> 🎥 The video demonstrates hover overlays, smooth transitions, and responsive flex layout displaying 4 cards per row.
+
 
 ## 🚀 Features
 
