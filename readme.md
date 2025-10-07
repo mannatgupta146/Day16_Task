@@ -20,14 +20,12 @@ This project helped me understand:
 - 📏 Creating **responsive grids** with proper spacing and wrapping  
 - 💡 Designing a visually appealing UI inspired by real-world platforms  
 
-## 📸 Preview
-Here’s how the **Dribbble Clone** looks in action 👇  
 
 ## 🎥 Project Demo
-Here's a quick look at how the Dribbble Clone works:
+Here’s how the **Dribbble Clone** looks in action 👇
 
 <video width="600" controls>
-  <source src="https://raw.githubusercontent.com/mannatgupta146/Day16_Task/main/assets/demo.mp4" type="video/mp4">
+  <source src="./assets/demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
