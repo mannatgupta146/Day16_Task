@@ -24,10 +24,7 @@ This project helped me understand:
 ## 🎥 Project Demo
 Here’s how the **Dribbble Clone** looks in action 👇
 
-<video width="600" controls>
-  <source src="./assets/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![Demo GIF](./assets/demo.gif)
 
 
 > 🎥 The video demonstrates hover overlays, smooth transitions, and responsive flex layout displaying 4 cards per row.
