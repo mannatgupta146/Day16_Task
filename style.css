@@ -220,7 +220,6 @@ html, body {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-
 #new{
     padding: 20px 30px;
     border-radius: 15px;
@@ -300,4 +299,81 @@ html, body {
 
 #hero-nav i{
     padding-right: 5px;
+}
+
+#signup {
+    text-align: center; 
+    padding: 30px 0;
+}
+
+#signup h2 {
+    display: inline-block; 
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #000;
+    color: #fff;  
+    font-family: regular;
+    font-size: 18px;
+    transition: all ease 0.5s;
+}
+
+#signup:hover h2{
+    transform: scale(1.1); 
+    background-color: #EA4C89;
+}
+
+#end{
+    padding: 20px 60px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-family: mona;
+    justify-content: space-between;
+}
+
+#end svg{
+    height: 30px;
+}
+
+#end-center{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#end i{
+    font-size: 20px;
+}
+
+#end-center h5{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 60px 20px;
+    font-family: mona;
+}
+
+#footer h5{
+    font-weight: 300;
+}
+
+#footer-left{
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#footer-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
