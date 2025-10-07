@@ -94,7 +94,7 @@ html, body {
 }
 
 #center-left h1{
-    padding-top: 40px;
+    padding-top: 25px;
     font-size: 50px;
     font-family: mona;
     font-weight: 700;
@@ -226,7 +226,7 @@ html, body {
     border-radius: 15px;
     width: 90%;
     margin: 20px auto;
-    background-color: #f8f5f5;
+    background-color: #F8F8FC;
     display: flex; 
     align-items: center;
     gap: 20px;
@@ -266,4 +266,38 @@ html, body {
     padding: 2px 6px;
     border-radius: 12px;
     text-transform: uppercase;
+}
+
+#hero-nav{
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: regular;
+}
+
+#hero-nav h2{
+    padding: 10px 20px;
+    border: 1px solid #88888833;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#hero-nav h3{
+    font-size: 13px;
+    font-weight: 300;
+    padding: 10px 20px;
+    border: 1px solid #88888833;
+    border-radius: 30px;
+}
+
+#hero-center{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#hero-nav i{
+    padding-right: 5px;
 }
